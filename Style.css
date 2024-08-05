@@ -1,4 +1,4 @@
-.grid {
+.root {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
@@ -8,13 +8,9 @@
     border: 1px solid #ccc
 }
 
-.cell {
+.root-item {
     background-color: #f0f0f0;
     padding: 20px;
     text-align: center;
 
-}
-
-.cell:hover {
-    background-color:blue;
 }
